@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: pink;
+}
+.container{
+    background-color: greenyellow;
+    margin-left: 10em;
+    margin-right: 10em;
+    gap:2em;
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+}
+.head{
+    background-color: grey;
+    height: 100px;
+}
+.main{
+    background-color: grey;
+    height: 100vh;
+}
+.foot{
+    background-color: grey;
+    height: 100px;
+}
